@@ -70,7 +70,6 @@ axes[1].set_title('Tips by Day')
 plt.tight_layout()
 plt.show()
 
-
 #TODO Data preprocessing
 
 # One-hot encode categorical features
@@ -192,3 +191,5 @@ import pickle
 # Save the trained model
 with open('linear_model.pkl', 'wb') as file:
     pickle.dump(linear_model, file)
+
+
